@@ -1,15 +1,18 @@
 * {
     background-color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 footer{
-    display: grid;
-    grid-template-rows: 3;
+    /* background-color:rgb(1, 222, 222); */
+    background-color: turquoise;
 }
 
 div{
     width: 200px;
-    height: 400px;
+    height: auto;
     margin: 0 auto;
     border: 2px black solid;
 }
@@ -18,5 +21,11 @@ h3{
     text-align: center;
     padding: 0;
     box-sizing: border-box;
-    background-color: darkslategray;
+    text-decoration: underline;
+    padding-top: 10px;
+}
+
+p{
+    text-align: center;
+    padding: 10px 0;
 }
