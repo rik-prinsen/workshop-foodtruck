@@ -1,5 +1,5 @@
 * {
-    background-color: chartreuse;
+    background-color: white;
 }
 
 footer{
@@ -8,8 +8,12 @@ footer{
 }
 
 div{
-    width: 100px;
-    height: 200px;
-    background-color: black;
+    width: 200px;
+    height: 400px;
     margin: 0 auto;
+    border: 2px black solid;
+}
+
+h3{
+    text-align: center;
 }
