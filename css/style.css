@@ -4,17 +4,10 @@
     box-sizing: border-box;
 }
 
-
-footer {
-    /* background-color:rgb(1, 222, 222); */
-    /* background-color: turquoise; */
-}
 div {
     height: auto;
     margin: 0 auto;
     border: 2px black solid;
-
-    /* background-color: turquoise; */
 
 }
 
@@ -47,10 +40,6 @@ form {
 
 
     /* background-color: turquoise; */
-
-    input {
-        /* background-color: lightgray; */
-    }
 
 }
 
