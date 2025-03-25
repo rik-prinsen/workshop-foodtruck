@@ -1,19 +1,19 @@
 * {
-    /* background-color: white; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
 footer {
     /* background-color:rgb(1, 222, 222); */
     /* background-color: turquoise; */
 }
-
 div {
     height: auto;
     margin: 0 auto;
     border: 2px black solid;
+
     /* background-color: turquoise; */
 
 }
@@ -22,7 +22,7 @@ h3 {
     text-align: center;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: underline;
+    
     padding-top: 10px;
 }
 
@@ -44,25 +44,28 @@ p {
 
 form {
     border: 2px black solid;
+
+
     /* background-color: turquoise; */
 
     input {
         /* background-color: lightgray; */
     }
+
 }
 
 ul {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
-    /* background-color: turquoise; */
+
 
     a {
         color: black;
         text-decoration: none;
     }
 }
-/*Hier pas ik even wat css aan*/
+
 nav{
     background-color: rgb(1, 222, 222);
 }
@@ -74,6 +77,32 @@ li a{
 
 h2{
     background-color: turquoise;
+    text-decoration: underline;
+}
+
+div, form{
+    background-color: orange;
+}
+
+form input{
+    background-color: rgb(254, 199, 97);
+    border: 1px, solid, orange;
+}
+
+img{
+    max-width: 100%;
+}
+
+@media screen and (min-width: 1000px){
+    div{
+        margin: 0px;
+    }
+
+    #gerecht{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
 }
 div, form{
     background-color: orange;
