@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="bestelformulier.js" defer></script>
 </head>
 <body>
 
@@ -68,6 +69,7 @@
         </div>
     </main>
     <section>
+
         <form action="" method="post" id="bestellen">
             <h2 id="bestel">Bestel Hier</h2>
             <label for="">Naam</label>
@@ -83,6 +85,37 @@
             <input type="submit" value="versturen">
 
         </form>
+
+        <h2 id="bestel">Bestel Hier</h2>
+            <label for="naam">Naam</label>
+            <input type="text" class="naam"><br>
+            <label for="tel">Telefoonnummer</label>
+            <input type="tel" class="tel"><br>
+            <label for="time">Afhaaltijd</label>
+            <select name="time" id="time">
+                <option value="--select--">--select--</option>
+            </select><br>
+            <label for="">Kies gerecht</label>
+            <select name="naamGerecht" id="naamGerecht">
+                <option value="Loaded fries">Loaded fries</option>
+                <option value="Burgers">Burgers</option>
+                <option value="Shoarma Wraps">Shoarma Wraps</option>
+                <option value="Bubble Waffles">Bubble Waffles</option>
+                <option value="Churros met Dips">Churros met Dips</option>
+                <option value="Vegan Döner">Vegan Döner</option>
+                <option value="Gegrilde Halloumi Wrap">Gegrilde Halloumi Wrap</option>
+                <option value="Falafel Bowl">Falafel Bowl</option>
+            </select>
+            <input type="number" class="aantalGerecht" placeholder="aantal ">
+            <label for="">Gerecht toevoegen </label>
+            <input type="checkbox" class="gerechtAdd"><br>
+            <button class="verstuur">versturen</button>
+            <div class="result">
+                <p class="bestelNaam">Naam: </p>
+                <p class="bestelTel">Telefoonnummer: </p>
+                <p class="bestelTijd">Afhaaltijd: </p>
+                <p class="bestelGerecht">Bestelde gerechten:<br></p>
+            </div>
     </section>
     <footer>
         <div id="contact"><h2>Contact</h2>

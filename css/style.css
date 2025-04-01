@@ -68,11 +68,25 @@ h2 {
     text-decoration: underline;
 }
 
+
 div,form {
     background-color: orange;
 }
 
 form input {
+
+div, section{
+    background-color: orange;
+}
+section input, section button{
+
+div, form{
+    background-color: orange;
+}
+
+form input{
+
+
     background-color: rgb(254, 199, 97);
     border: 1px, solid, orange;
 }
