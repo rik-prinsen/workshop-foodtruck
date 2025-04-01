@@ -76,10 +76,10 @@ h2{
     background-color: turquoise;
     text-decoration: underline;
 }
-div, form{
+div, section{
     background-color: orange;
 }
-form input{
+section input, section button{
     background-color: rgb(254, 199, 97);
     border: 1px, solid, orange;
 }
