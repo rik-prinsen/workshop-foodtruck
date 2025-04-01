@@ -81,9 +81,10 @@ img {
     max-width: 100%;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1024px) {
     div {
         margin: 0px;
+        font-size: 20px;
     }
 
     #gerecht {
@@ -94,6 +95,9 @@ img {
 
     #bestellen{
         padding-bottom: 10px;
+        label{
+            font-size: 20px;
+        }
     }
     
     #bestel{
